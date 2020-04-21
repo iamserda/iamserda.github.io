@@ -1,0 +1,271 @@
+body {
+    background-color: #f0e3ff;
+    font-family: Lato, Roboto, Montserrat, Helvetica, sans-serif;
+}
+
+h2 {
+    color: #3E206D;
+    font-size: 3em;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+h3 {
+    color: #3E206D;
+}
+
+.h3 {
+    color: #3E206D;
+    font-weight: 300;
+}
+
+h4 {
+    color: #3E206D;
+}
+
+h5 {
+    color: #3E206D;
+}
+
+h6 {
+    color: #3E206D;
+}
+p{
+    font-size: 1.2em;
+}
+
+/* generic-container-block */
+.container-for-absolute-div {
+    position: relative;
+}
+
+
+/* Black Panther landing page and overlay */
+.black-panther-background-image {
+    background: no-repeat center right fixed url(../img/black-panther-background.jpg);
+    width: auto;
+    height: 1200px;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: -999;
+    background-size: cover;
+    opacity: .9;
+    filter: grayscale(50%);
+}
+
+.overlay-mauve {
+    background-color: #3e206d;
+    width: auto;
+    height: 75rem;
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    opacity: 0.5;
+    filter: alpha(opacity=75);
+    z-index: -998;
+}
+
+/* css for header floating */
+/* nav .nav-bar{
+    float: none;
+} */
+.header-nav {
+    position: fixed;
+    top: 2px;
+    right: 180px;
+    left: 0px;
+    right: 0px;
+    z-index: 3;
+}
+
+.nav-bar {
+    position: fixed;
+    top: 2px;
+    right: 180px;
+    display: block;
+    z-index: 3;
+}
+
+.nav-bar-ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 150px;
+    background-color: #d89cf6;
+    position: absolute;
+    z-index: 4;
+    text-align: center;
+    font-weight: 600;
+    font-size: large;
+}
+
+.nav-bar-ul li a {
+    display: block;
+    width: 150px;
+    color: #3e206d;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.nav-bar-ul li a:hover {
+    background-color: #3e206d;
+    color: white;
+    width: inherit;
+}
+
+/* profile block CSS */
+#container-profile {
+    position: relative;
+}
+
+.author-name-header {
+    position: relative;
+    top: 400px;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    z-index: 3;
+    padding: 20px;
+}
+
+.greetings-serda-h1 {
+    font-size: 4rem;
+    /* position: relative; */
+    top: 390px;
+    color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.header-hr {
+    /* position: relative;
+    top: 390px; */
+    background-color: rgb(187, 184, 184);
+    width: 36em;
+}
+
+.greetings-serda-p1 {
+    /* position: relative;
+    top: 400px; */
+    color: white;
+    font-size: 2em;
+    margin: 0 auto;
+    padding: 0px;
+    font-size: 1.2em;
+}
+
+.profile-block-color-F0E3FF {
+    /*
+        position: relative;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+    */
+    /* height: 800px;  */
+    background-color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+/* generic parent container for sections */
+.profile-data-block {
+    margin: 0 auto;
+    width: 75%;
+    font-weight: 500;
+}
+
+.profile-data-block-1 {
+    text-align: center;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+.profile-data-block-2 {
+    margin: 50px auto;
+    padding: 10px;
+}
+
+.profile-data-block-3 {
+    text-align: center;
+    margin: 50px auto;
+    padding: 10px;
+}
+
+.profile-about-me {
+    width: auto;
+    line-height: 2;
+    font-weight: 500;
+}
+
+.hero-photo {
+    width: 320px;
+    border-radius: 50%;
+    border-width: 15px;
+    border-color: #d89cf6;
+    border-style: solid;
+    margin: 0 auto;
+}
+
+.profile-details {
+    width: 30%;
+}
+
+hr {
+    background-color: ;
+    width: 36em;
+}
+
+#container-experience {
+    position: relative;
+}
+
+.detail-id {
+    font-weight: bold;
+}
+
+.experience-block-color-d89cf6 {
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    /* height: 800px; */
+    background-color: #f0e3ff;
+    padding-top: 50px;
+}
+
+.experience-data-block-1 {
+    margin: 0 auto;
+    width: 50%;
+    font-weight: 500;
+}
+
+.btn {
+    margin-bottom: 3px;
+    display: block;
+    background-color: #d89cf6;
+    border: 0px;
+    width: 100px;
+    font-weight: 700;
+}
+
+#donate-btn {
+    margin: 0 auto;
+}
+
+.row-skills {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.bold-text {
+    font-weight: 700;
+}
