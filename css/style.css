@@ -21,7 +21,7 @@ h2 {
 }
 
 h3 {
-  font-size: 2em;
+  /* font-size: 2em; */
   font-family: "Lato", "Segoe UI", sans-serif;
 }
 
@@ -91,7 +91,6 @@ h3 {
 }
 
 /* Navbar Styling  */
-
 .header-container {
   padding-right: 0;
   padding-left: 0;
@@ -112,7 +111,6 @@ h3 {
 }
 
 /* Section 1: Author's name and Description */
-
 .leading-header {
   text-align: center;
   padding: 200px 0 200px 0;
@@ -136,13 +134,10 @@ h3 {
 }
 
 /* Section 2: Profile  */
-
 #profile {
   position: relative;
-  /* background-color: grey; */
-  /* width: 100%; */
   padding-top: 20px;
-  padding-bottom: 40px;
+  padding-bottom: 100px;
   border-bottom: 3px solid #d89cf6;
 }
 
@@ -167,20 +162,19 @@ h3 {
 
 .hr-light {
   padding: 1px;
-  /* width: 24%; */
   background-color: rgb(255, 255, 255);
   margin: 10px auto 10px auto;
 }
 
 .hr-dark {
   padding: 1px;
-  /* width: 24%; */
   background-color: #3e206d;
   margin: 10px auto 10px auto;
 }
 
 .about-me {
-  margin: 2px;
+  margin-top: 50px;
+  /* margin: 2px; */
 }
 
 .about-me button {
@@ -204,19 +198,29 @@ h3 {
   font-weight: bold;
 }
 
-about-me .main-photo-container {
+.about-me .main-photo-container {
   position: relative;
   padding: 10px;
 }
 
 .main-photo {
   display: block;
-  margin: 30px auto;
+  margin: 10px auto;
   max-width: 250px;
   border-radius: 50%;
   padding: 5px;
-  border: 5px #d89cf6 solid;
+  border: 6px #d89cf6 solid;
 }
+.main-photo:hover {
+  display: block;
+  margin: 50px auto;
+  max-width: 250px;
+  border-radius: 50%;
+  padding: 5px;
+  border: 10px outset #916dd5;
+  box-shadow: 0 0 0 .5rem rgba(49, 0, 49, 0.473);
+}
+
 
 /* Section 3: Experiences */
 
@@ -276,6 +280,9 @@ about-me .main-photo-container {
   padding-bottom: 40px;
   padding-bottom: 100px;
   border-bottom: 3px solid #d89cf6;
+}
+#projects li{
+  margin-bottom: 20px;
 }
 .projects-header {
   margin-top: 40px;
