@@ -95,28 +95,71 @@ h3 {
   padding: 0;
   position: fixed;
   border-bottom: 5px solid #d89cf6;
+  z-index: 999;
 }
 
 .brand-name {
-  font-size: 3rem;
+  font-size: 2em;
+  padding: 0px 10px;
   color: white;
-  padding-left: 10px;
   font-weight: bold;
+  border: 5px solid #916dd5;
+  border-top-left-radius: 15%;
+  border-bottom-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 15%;
+  background-color: #d89cf6;
+}
+.brand-name:hover {
+  font-size: 2em;
+  padding: 0px 10px;
+  color: #916dd5;
+  font-weight: bold;
+  border: 5px solid #d89cf6;
+  border-top-left-radius: 15%;
+  border-bottom-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 15%;
+  background-color: white;
+}
+sup{
+  position: absolute;
+  top: 25px;
+  font-size: 1rem;
 }
 
 .navbar-bg-color {
   background-color: #3e206d;
 }
+.navbar-toggler{
+  border-color: #ffffff;
+  background-color: #916dd5;
+  content: icon;
+}
+
+.navbar-toggler:hover{
+  border-color: #ffffff;
+  background-color: #d89cf6;
+}
 
 #navbar-container {
+  /* position: fixed; */
   color: white;
   font-size: large;
   font-weight: bold;
-  z-index: 99;
 }
 #navbar-container li {
   margin: 5px auto;
   padding-right: 20px;
+}
+
+.nav-link:hover{
+  text-decoration: none;
+  color: #d89cf6;
+  font-size: large;
+  font-weight: bold;
+  border-bottom: 2px solid #d89cf6;
+  margin-bottom: 0;
 }
 
 
@@ -224,7 +267,7 @@ h3 {
 }
 
 .about-me .main-photo-container {
-  position: relative;
+  /* position: relative; */
   padding: 10px;
 }
 
@@ -253,7 +296,7 @@ h3 {
 /* Section 3: Experiences */
 
 #experiences {
-  position: relative;
+  /* position: relative; */
   padding-top: 20px;
   padding-bottom: 100px;
   border-bottom: 3px solid #d89cf6;
@@ -289,7 +332,7 @@ h3 {
 /* Abilities  */
 #abilities {
   /* margin-top: 100px; */
-  position: relative;
+  /* position: relative; */
   padding-top: 20px;
   padding-bottom: 40px;
   border-bottom: 3px solid #d89cf6;
@@ -301,7 +344,7 @@ h3 {
 }
 
 #projects {
-  position: relative;
+  /* position: relative; */
   background-color: white;
   width: 100%;
   padding-top: 20px;
@@ -309,8 +352,11 @@ h3 {
   padding-bottom: 100px;
   border-bottom: 3px solid #d89cf6;
 }
+#projects ul {
+  padding: 2px;
+}
 #projects li{
-  margin-bottom: 20px;
+  margin: 20px;
 }
 .projects-header {
   margin-top: 40px;
@@ -331,12 +377,14 @@ h3 {
 
 footer {
   position: relative;
-  padding: 10px 0 10px 0;
+  padding: 20px 0 10px 0;
   margin-left: 0;
   margin-right: 0;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: white;
   text-align: center;
+  z-index: 999;
+  bottom: 0;
 }
 
 footer h6 {
