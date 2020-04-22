@@ -219,6 +219,16 @@ h3 {
   padding: 5px;
   border: 10px outset #916dd5;
   box-shadow: 0 0 0 .5rem rgba(49, 0, 49, 0.473);
+  animation-name: grow;
+  animation-duration: 2s;
+}
+@keyframes grow{
+  0%{
+    width: 100px;
+  }
+  100%{
+    width: 250px;
+  }
 }
 
 
