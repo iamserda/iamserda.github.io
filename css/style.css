@@ -92,14 +92,16 @@ h3 {
 
 /* Navbar Styling  */
 .header-container {
-  padding-right: 0;
-  padding-left: 0;
-  border-bottom: 3px solid #d89cf6;
+  padding: 0;
+  position: fixed;
+  border-bottom: 5px solid #d89cf6;
 }
 
 .brand-name {
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: white;
+  padding-left: 10px;
+  font-weight: bold;
 }
 
 .navbar-bg-color {
@@ -108,10 +110,19 @@ h3 {
 
 #navbar-container {
   color: white;
+  font-size: large;
+  font-weight: bold;
+  z-index: 99;
 }
+#navbar-container li {
+  margin: 5px auto;
+  padding-right: 20px;
+}
+
 
 /* Section 1: Author's name and Description */
 .leading-header {
+  margin: 0 auto;
   text-align: center;
   padding: 200px 0 200px 0;
   border-bottom: 3px solid #d89cf6;
@@ -123,6 +134,8 @@ h3 {
   font-weight: 700;
   color: #3e206d;
   margin-bottom: 0;
+  animation-name: font-grow;
+  animation-duration: 10s;
 }
 
 .leading-header h4 {
@@ -131,8 +144,18 @@ h3 {
   font-size: 1.5rem;
   font-weight: 600;
   color: #3e206d;
+  animation-name: font-grow;
+  animation-duration: 10s;
 }
 
+@keyframes font-grow{
+  0%{
+    font-size: 20%;
+  }
+  100%{
+    width: 100%;
+  }
+}
 /* Section 2: Profile  */
 #profile {
   position: relative;
@@ -145,12 +168,14 @@ h3 {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 0px;
+
 }
 
 .profile-block-header h2 {
   font-size: 2.5rem;
   color: #3e206d;
   margin-bottom: 0.5em;
+
 }
 
 .profile-block-header p {
@@ -211,13 +236,13 @@ h3 {
   padding: 5px;
   border: 10px outset #916dd5;
   animation-name: grow;
-  animation-duration: 15s;
+  animation-duration: 10s;
   box-shadow: 0 0 0 .5rem rgba(49, 0, 49, 0.473);
 }
 
 @keyframes grow{
   0%{
-    width: 10%;
+    width: 50%;
   }
   100%{
     width: 100%;
