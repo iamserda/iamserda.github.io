@@ -92,10 +92,11 @@ h3 {
 
 /* Navbar Styling  */
 .header-container {
-  padding: 0;
-  position: fixed;
-  border-bottom: 5px solid #d89cf6;
-  z-index: 999;
+    position: sticky;
+    top: 0;
+    padding: 0;
+    border-bottom: 5px solid #d89cf6;
+    z-index: 999;
 }
 
 .brand-name {
@@ -169,6 +170,7 @@ sup{
   text-align: center;
   padding: 200px 0;
   border-bottom: 3px solid #d89cf6;
+
 }
 
 .leading-header h1 {
@@ -201,9 +203,9 @@ sup{
 }
 /* Section 2: Profile  */
 #profile {
-
+  
   position: relative;
-  padding: 50px 0 100px 0;
+  padding: 100px 0 100px 0;
   border-bottom: 3px solid #d89cf6;
 }
 
