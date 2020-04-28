@@ -1,11 +1,12 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: black;
+  background-color: #F0E3FF;
   color: black;
   font-family: "Lato", "Segoe UI", sans-serif;
   font-weight: 300;
   font-size: 1.15em;
+  height: 100%;
 }
 p{
   font-family: "Lato", "Segoe UI", sans-serif;
@@ -92,10 +93,11 @@ h3 {
 
 /* Navbar Styling  */
 .header-container {
-  padding: 0;
-  position: fixed;
-  border-bottom: 5px solid #d89cf6;
-  z-index: 999;
+    position: sticky;
+    top: 0;
+    padding: 0;
+    border-bottom: 5px solid #d89cf6;
+    z-index: 999;
 }
 
 .brand-name {
@@ -169,6 +171,7 @@ sup{
   text-align: center;
   padding: 200px 0;
   border-bottom: 3px solid #d89cf6;
+
 }
 
 .leading-header h1 {
@@ -201,9 +204,9 @@ sup{
 }
 /* Section 2: Profile  */
 #profile {
-
+  
   position: relative;
-  padding: 50px 0 100px 0;
+  padding: 100px 0 100px 0;
   border-bottom: 3px solid #d89cf6;
 }
 
@@ -392,7 +395,7 @@ footer {
   padding: 20px 0 10px 0;
   margin-left: 0;
   margin-right: 0;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: white;
   text-align: center;
   z-index: 999;
@@ -408,6 +411,24 @@ footer h6 {
   margin-bottom: 0;
 }
 
+#hobbies{
+  border-radius: 20px;
+}
+#contacts {
+  border: 5px solid black;
+  border-radius: 10px;
+}
+#footer {
+  position: absolute;
+  padding: 20px 0 20px 0;
+  margin-left: 0;
+  margin-right: 0;
+  font-size: 1.2rem;
+  color: white;
+  text-align: center;
+  z-index: 999;
+  bottom: 0;
+}
 /*
 color theme for this site:
     darkest purple: #3E206D (writing)
