@@ -1,0 +1,10 @@
+{
+    "editor.fontSize": 13,
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', 'Roboto Mono', monospace",
+    "editor.wordWrap": "on",
+    "editor.definitionLinkOpensInPeek": true,
+    "editor.hover.delay": 500,
+    "workbench.colorCustomizations": {
+    
+    }
+}
