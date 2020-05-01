@@ -1,65 +1,68 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: black;
-  color: black;
-  font-family: "Lato", "Segoe UI", sans-serif;
-  font-weight: 300;
+  background-color: #F0E3FF;
+  color: #3e206d;
+  font-family: "Lato", "Segoe UI", Helvetica,  Arial, sans-serif;
+  font-weight: 400;
   font-size: 1.15em;
+  height: 100%;
 }
 p{
-  font-family: "Lato", "Segoe UI", sans-serif;
+  font-family: "Lato", "Segoe UI", Helvetica,  Arial, sans-serif;
 }
 h1 {
   font-size: 5em;
-  font-family: "Lato", "Segoe UI", sans-serif;
+  font-family: "Lato", "Segoe UI", Helvetica,  Arial, sans-serif;
 }
 
 h2 {
   font-size: 3em;
-  font-family: "Lato", "Segoe UI", sans-serif;
+  font-family: "Lato", "Segoe UI", Helvetica,  Arial, sans-serif;
 }
 
 h3 {
   /* font-size: 2em; */
-  font-family: "Lato", "Segoe UI", sans-serif;
+  font-family: "Lato", "Segoe UI", Helvetica,  Arial, sans-serif;
 }
-
+h6{
+  font-weight: bold;
+}
 .quotes {
   font-size: 1.2em;
-  font-family: "Lato", "Segoe UI", sans-serif;
+  font-family: "Lato", "Segoe UI", Helvetica,  Arial, sans-serif;
 }
 
 /* Text Color:*/
 
 .text-color-darkest-purple {
   color: #3e206d;
-  font-family: "Lato", "Segoe UI", sans-serif;
+  font-family: "Lato", "Segoe UI", Helvetica,  Arial, sans-serif;
 }
 
 .text-color-dark-purple {
   color: #916dd5;
-  font-family: "Lato", "Segoe UI", sans-serif;
+  font-family: "Lato", "Segoe UI", Helvetica,  Arial, sans-serif;
 }
 
 .text-color-light-purple {
   background-color: #d89cf6;
-  font-family: "Lato", "Segoe UI", sans-serif;
+  font-family: "Lato", "Segoe UI", Helvetica,  Arial, sans-serif;
 }
 
 .text-color-lighter-purple {
   background-color: #f0e3ff;
-  font-family: "Lato", "Segoe UI", sans-serif;
+  font-family: "Lato", "Segoe UI", Helvetica,  Arial, sans-serif;
 }
 
 .text-color-lightest-purple {
   color: rgb(251, 247, 255);
-  font-family: "Lato", "Segoe UI", sans-serif;
+  font-family: "Lato", "Segoe UI", Helvetica,  Arial, sans-serif;
 }
 
 .text-color-white {
   color: rgb(255, 255, 255);
-  font-family: "Lato", "Segoe UI", sans-serif;
+  font-family: "Lato", "Segoe UI", Helvetica,  Arial, sans-serif;
 }
 
 /* Background Colors*/
@@ -92,10 +95,11 @@ h3 {
 
 /* Navbar Styling  */
 .header-container {
-  padding: 0;
-  position: fixed;
-  border-bottom: 5px solid #d89cf6;
-  z-index: 999;
+    position: sticky;
+    top: 0;
+    padding: 0;
+    border-bottom: 5px solid #d89cf6;
+    z-index: 999;
 }
 
 .brand-name {
@@ -169,6 +173,7 @@ sup{
   text-align: center;
   padding: 200px 0;
   border-bottom: 3px solid #d89cf6;
+
 }
 
 .leading-header h1 {
@@ -201,9 +206,9 @@ sup{
 }
 /* Section 2: Profile  */
 #profile {
-
+  
   position: relative;
-  padding: 50px 0 100px 0;
+  padding: 100px 0 100px 0;
   border-bottom: 3px solid #d89cf6;
 }
 
@@ -392,7 +397,7 @@ footer {
   padding: 20px 0 10px 0;
   margin-left: 0;
   margin-right: 0;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: white;
   text-align: center;
   z-index: 999;
@@ -407,6 +412,26 @@ footer h6 {
   margin-right: auto;
   margin-bottom: 0;
 }
+
+#hobbies{
+  border-radius: 20px;
+}
+#contacts {
+  border: 5px solid black;
+  border-radius: 10px;
+}
+#footer {
+  position: absolute;
+  padding: 20px 0 20px 0;
+  margin-left: 0;
+  margin-right: 0;
+  font-size: 1.2rem;
+  color: white;
+  text-align: center;
+  z-index: 999;
+  bottom: 0;
+}
+
 
 /*
 color theme for this site:
