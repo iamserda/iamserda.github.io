@@ -6,5 +6,6 @@
     "editor.hover.delay": 500,
     "workbench.colorCustomizations": {
     
-    }
+    },
+    "liveServer.settings.port": 5501
 }

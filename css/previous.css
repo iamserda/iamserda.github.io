@@ -1,0 +1,468 @@
+body {
+  padding: 0;
+  margin: 0;
+  /* background-color: #F0E3FF;
+  color: #3e206d; */
+  font-family: Helvetica,  Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.15em;
+  height: 100%;
+}
+p{
+  font-family:Arial, sans-serif;
+}
+h1 {
+  font-size: 4rem;
+  font-family: Futura,Helvetica,  Arial, sans-serif;
+}
+
+h2 {
+  font-size: 3em;
+  font-family:Helvetica,Helvetica,  Arial, sans-serif;
+}
+
+h3 {
+  /* font-size: 2em; */
+  font-family:Helvetica,Helvetica,  Arial, sans-serif;
+}
+h6{
+  font-weight: bold;
+}
+.quotes {
+  font-size: 1.2em;
+  font-family:Helvetica,Helvetica,  Arial, sans-serif;
+}
+
+/* Text Color:*/
+/* 
+.text-color-darkest-purple {
+  color: #3e206d;
+  font-family:Helvetica,Helvetica,  Arial, sans-serif;
+}
+
+.text-color-dark-purple {
+  color: #916dd5;
+  font-family:Helvetica,Helvetica,  Arial, sans-serif;
+}
+
+.text-color-light-purple {
+  background-color: #d89cf6;
+  font-family:Helvetica,Helvetica,  Arial, sans-serif;
+}
+
+.text-color-lighter-purple {
+  background-color: #f0e3ff;
+  font-family:Helvetica,Helvetica,  Arial, sans-serif;
+}
+
+.text-color-lightest-purple {
+  color: rgb(251, 247, 255);
+  font-family:Helvetica,Helvetica,  Arial, sans-serif;
+}
+
+.text-color-white {
+  color: rgb(255, 255, 255);
+  font-family:Helvetica,Helvetica,  Arial, sans-serif;
+} */
+
+/* Background Colors*/
+
+/* Background Color : White*/
+
+/* .background-color-white {
+  background-color: #fff;
+}
+
+.background-color-darkest-purple {
+  background-color: #3e206d;
+}
+
+.background-color-dark-purple {
+  background-color: #916dd5;
+}
+
+.background-color-light-purple {
+  background-color: #d89cf6;
+}
+
+.background-color-lightest-purple {
+  background-color: rgb(251, 247, 255);
+}
+
+.background-color-lighter-purple {
+  background-color: #f0e3ff;
+} */
+
+/* Navbar Styling  
+.header-container {
+    position: sticky;
+    top: 0;
+    left:0;
+    right:0;
+
+    /* border-bottom: 5px solid #d89cf6;
+    z-index: 999;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 100%;
+}
+*/
+/* .brand-name {
+  font-size: 2em;
+  padding: 0px 20px;
+  color: white;
+  font-weight: bold;
+  border: 5px solid #916dd5;
+  border-top-left-radius: 15%;
+  border-bottom-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 15%;
+  background-color: #d89cf6;
+}
+.brand-name:hover {
+  font-size: 2em;
+  padding: 0px 20px;
+  color: #916dd5;
+  font-weight: bold;
+  border: 5px solid #d89cf6;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 15%;
+  border-top-right-radius: 15%;
+  border-bottom-right-radius: 50%;
+  background-color: white;
+}
+sup{
+  position: absolute;
+  top: 25px;
+  font-size: 1rem;
+}
+
+.navbar-bg-color {
+  background-color: #3e206d;
+}
+.navbar-toggler{
+  border-color: #ffffff;
+  background-color: #916dd5;
+  content: icon;
+}
+
+.navbar-toggler:hover{
+  border-color: #ffffff;
+  background-color: #d89cf6;
+} */
+
+#navbar-container {
+  /* position: fixed; */
+  /* color: white;
+  font-size: large;
+  font-weight: bold;
+}
+#navbar-container li {
+  margin: 5px auto;
+  padding-right: 20px;
+}
+
+.nav-link:hover{
+  text-decoration: none;
+  color: #d89cf6;
+  font-size: large;
+  font-weight: bold;
+  border-bottom: 2px solid #d89cf6;
+  margin-bottom: 0;
+} */
+
+
+/* Section 1: Author's name and Description */
+.leading-header {
+  margin: 0 auto;
+  text-align: center;
+  padding: 200px 0;
+  border-bottom: 3px solid #d89cf6;
+
+}
+
+.leading-header h1 {
+  /* h1 inside the tag with class leading */
+  font-size: 6rem;
+  font-weight: 700;
+  color: #3e206d;
+  margin-bottom: 0;
+  animation-name: font-grow;
+  animation-duration: 1s;
+}
+
+.leading-header h4 {
+  /* h4 inside the tag with class leading */
+  margin-top: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #3e206d;
+  animation-name: font-grow;
+  animation-duration: 1s;
+}
+
+@keyframes font-grow{
+  0%{
+    font-size: 10%;
+  }
+  100%{
+    width: 100%;
+  }
+}
+/* Section 2: Profile  */
+#profile {
+  
+  position: relative;
+  padding: 100px 0 100px 0;
+  border-bottom: 3px solid #d89cf6;
+}
+
+.profile-header {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0px;
+
+}
+
+.profile-block-header h2 {
+  font-size: 2.5rem;
+  color: #3e206d;
+  margin-bottom: 0.5em;
+
+}
+
+.profile-block-header p {
+  font-size: 1.2rem;
+  margin-top: 0;
+  margin-bottom: 1em;
+  color: #3e206d;
+}
+
+.hr-light {
+  padding: 1px;
+  background-color: rgb(255, 255, 255);
+  margin: 10px auto 10px auto;
+}
+
+.hr-dark {
+  padding: 1px;
+  background-color: #3e206d;
+  margin: 10px auto 10px auto;
+}
+
+.about-me {
+  margin-top: 50px;
+  /* margin: 2px; */
+}
+
+.about-me button {
+  font-size: 1em;
+  color: white;
+  background-color: #d89cf6;
+  border: 2px solid #3e206d;
+  color: #3e206d;
+}
+
+.about-me button:hover {
+  color: white;
+  border: 2px solid #ffffff;
+}
+
+.about-me p ul li {
+  color: #3e206d;
+}
+
+.about-me span{
+  font-weight: bold;
+}
+
+.about-me .main-photo-container {
+  /* position: relative; */
+  padding: 10px;
+}
+
+.main-photo {
+  display: block;
+  margin: 10px auto;
+  max-width: 250px;
+  border-radius: 50%;
+  padding: 5px;
+  border: 10px outset #916dd5;
+  animation-name: grow;
+  animation-duration: 1s;
+  box-shadow: 0 0 0 .5rem rgba(49, 0, 49, 0.473);
+}
+
+.main-photo:hover {
+  display: block;
+  margin: 10px auto;
+  max-width: 250px;
+  border-radius: 50%;
+  padding: 5px;
+  border: 10px outset rgba(46, 10, 53, 0.719);
+  animation-name: grow;
+  animation-duration: 5s;
+  box-shadow: 0 0 0 .5rem rgba(46, 10, 53, 0.719);
+}
+
+@keyframes grow{
+  0%{
+    width: 50%;
+  }
+  100%{
+    width: 100%;
+  }
+}
+
+
+/* Section 3: Experiences */
+
+#experiences {
+  /* position: relative; */
+  padding-top: 20px;
+  padding-bottom: 100px;
+  border-bottom: 3px solid #d89cf6;
+  /* margin-bottom: 100px; */
+}
+
+.experience-header {
+  margin-top: 40px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.experience-header h2 {
+  color: #916dd5;
+}
+#experiences a:hover {
+  text-decoration: none;
+  color: rgb(216, 157, 255);
+}
+
+#education{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  color: #916dd5;
+}
+
+#careers{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  color: #916dd5;
+}
+/* Abilities  */
+#abilities {
+  /* margin-top: 100px; */
+  /* position: relative; */
+  padding-top: 20px;
+  padding-bottom: 40px;
+  border-bottom: 3px solid #d89cf6;
+}
+.abilities-header {
+  margin-top: 40px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#projects {
+  /* position: relative; */
+  background-color: white;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  padding-bottom: 100px;
+  border-bottom: 3px solid #d89cf6;
+}
+#projects ul {
+  padding: 2px;
+}
+#projects li{
+  margin: 20px;
+}
+.projects-header {
+  margin-top: 40px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.projects-header h2 {
+  color: #916dd5;
+}
+.row-block{
+  margin-bottom: 10px;
+}
+
+/* #top #navbar-container #navbar-nav .nav-item {
+    z-index: 9;
+} */
+
+
+footer {
+  position: relative;
+  padding: 20px 0 10px 0;
+  margin-left: 0;
+  margin-right: 0;
+  font-size: 1.2rem;
+  color: white;
+  text-align: center;
+  z-index: 999;
+  bottom: 0;
+}
+
+footer h6 {
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+
+#hobbies{
+  border-radius: 20px;
+}
+#contacts {
+  border: 5px solid black;
+  border-radius: 10px;
+}
+#footer {
+  position: absolute;
+  padding: 20px 0 20px 0;
+  margin-left: 0;
+  margin-right: 0;
+  font-size: 1.2rem;
+  color: white;
+  text-align: center;
+  z-index: 999;
+  bottom: 0;
+}
+
+
+/*
+color theme for this site:
+    darkest purple: #3E206D (writing)
+    dark purple-2: #916DD5 (Links, Buttons, etc)
+    
+    lightest-purple: rgb(251, 247, 255); (background-color)
+    lighter purple: background-color: #F0E3FF;
+    light-purple: #D89CF6
+
+    block colors
+    .background-slate {
+        background-color: rgba(126, 126, 126, 0.5)
+    }
+    .background-darkgray {
+        background-color: rgba(48, 48, 48, 0.5)
+    }
+*/
+
+/* Alternate Color options
+.background-slate {
+    background-color: rgba(126, 126, 126, 0.5)
+}
+
+.background-darkgray {
+    background-color: rgba(48, 48, 48, 0.5)
+}
+*/
