@@ -1,6 +1,6 @@
-# Visit: 
-https://iamserda.github.io
+# Serda Simus's GH Pages, Resume v.1.0
 
-Updated every month or so with new information or design.
+
+Link: https://iamserda.github.io
 
 Serda
